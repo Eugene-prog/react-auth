@@ -4,6 +4,7 @@ import {createBrowserRouter, Navigate, RouterProvider} from "react-router-dom";
 import Login from "./routes/login";
 import Register from "./routes/register";
 import User from "./routes/user";
+import ErrorPage from "./error-page";
 import App from './App';
 import './index.css';
 import '@fontsource/roboto/300.css';
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Navigate to="login"/>,
+    errorElement: <ErrorPage/>
   },
   {
     path: "/login",
