@@ -20,7 +20,7 @@ export default function Login() {
   };
 
   return (
-    <Container maxWidth="xs" sx={{ mt: 2 }}>
+    <Container maxWidth="sm" sx={{ mt: 1 }}>
       <Typography variant="h5" component="h1" gutterBottom textAlign="center">
         Login
       </Typography>
